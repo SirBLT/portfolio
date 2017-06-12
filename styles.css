@@ -229,10 +229,3 @@ footer {
   text-decoration: none;
   margin: 0 0;
 }
-
-
-@media (max-width:1060px) {
-  .box {
-    width: 45%;
-  }
-}
