@@ -1,0 +1,38 @@
+<html ng-app="folio">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://www.fontify.me/wf/152c3975cf32219ca039529919647cb2" rel="stylesheet" type="text/css">
+    <link href="https://www.fontify.me/wf/951a43f46f2db2be0629b6d4f098fc22" rel="stylesheet" type="text/css">
+    <title>BLT Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="myName">Brian Turner</h1>
+      <h3 class="fswd">Full-Stack Web Developer</h3>
+    </header>
+
+    <nav id="main">
+      <ul>
+        <li class="logo"><img src="bltHeadshot.jpg" alt="headshot" class="headshot"></li>
+        <li><a href="/#!/#about">About</a></li>
+        <li><a href="https://github.com/sirBLT">GitHub</a></li>
+        <li><a href="https://twitter.com/bltDeveloper">Twitter</a></li>
+        <li><a href="https://linkedin.com/in/bit-brian-turner">LinkedIn</a></li>
+        <li><a ui-sref="projects">Projects</a></li>
+      </ul>
+    </nav>
+
+
+    <ui-view></ui-view>
+    <footer>
+      <p class="email">Click below to contact me for more information</p>
+      <p class="eButton"><a class="eButton" href="mailto:blt8324@gmail.com">☞ 📬 ☜</a></p>
+    </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <script src="mainCtrl.js" charset="utf-8"></script>
+  <script src="helpers.js"></script>
+  </body>
+</html>
