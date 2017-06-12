@@ -137,11 +137,12 @@ nav a {
 }
 .box {
   display: flex;
-  width: 36.5%;
+  width: 33.3%;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
+  justify-content: space-around;
 }
 
 .boxes {
@@ -227,4 +228,11 @@ footer {
   text-align: center;
   text-decoration: none;
   margin: 0 0;
+}
+
+
+@media (max-width:1060px) {
+  .box {
+    width: 45%;
+  }
 }
