@@ -11,12 +11,12 @@ angular.module("folio", ['ui.router'])
   })
   .state('about', {
     url: '/about',
-    controller: 'aboutCtrl',
+    controller: 'mainCtrl',
     templateUrl: 'views/aboutMe.html'
   })
   .state('projects', {
     url: '/projects',
-    controller: 'proCtrl',
+    controller: 'mainCtrl',
     templateUrl: 'views/projects.html'
   })
 })
