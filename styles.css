@@ -96,6 +96,9 @@ nav a {
   text-transform: uppercase;
 }
 
+nav a:hover {
+  color: darkblue;
+}
 
 .headshot {
   height: 120px;
