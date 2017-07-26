@@ -130,6 +130,7 @@ nav a:hover {
   font-size: 1.5em;
   height: 10vh;
   margin-top: 10%;
+  padding-top: 10px;
   font-family: font120087;
   color: white;
   text-shadow: rgba(0,0,0,0.5)
@@ -357,6 +358,45 @@ footer {
       background: black;
       border-radius: 20px;
       top: 13.5vh;
+      left: 50%;
+      transform: translate(-50%);
+      text-align: center;
+      width: 200px;
+      font-size: 1.05em;
+      height: 60px;
+      margin-top: 10%;
+      font-family: font120087;
+      color: white;
+      text-shadow: rgba(0,0,0,0.5)
+
+  }
+
+  @media (max-width:400px) {
+    nav {
+      font-size: 1em;
+    }
+    nav a {
+      padding: 20px 6px;
+    }
+    .myName {
+      position: absolute;
+      top: 15vh;
+      left: 50%;
+      color: black;
+      transform: translate(-50%, -80%);
+      text-align: center;
+      font-size: 1.8em;
+      font-weight: 800;
+      border-radius: 20px;
+      width: 50%;
+      margin-top: 10%;
+      font-family: font120087;
+    }
+    .fswd {
+      position: absolute;
+      background: black;
+      border-radius: 20px;
+      top: 18vh;
       left: 50%;
       transform: translate(-50%);
       text-align: center;
