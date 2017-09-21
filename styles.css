@@ -21,7 +21,8 @@ body {
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
   transform: scale(0.98);
   transition: transform 0.5s;
-  font-family: font152757;
+  font-family: 'Rancho', Georgia, serif;
+  font-size: 1.25em;
 }
 
 body.fixed-nav .site-wrap {
@@ -46,7 +47,7 @@ header {
   margin-top: -30px;
 }
 nav {
-  font-family: 'Sedgwick Ave Display', cursive;;
+  font-family: 'Sedgwick Ave Display', cursive;
   font-size: 2em;
   background:black;
   top:0;
@@ -169,7 +170,7 @@ nav a:hover {
 }
 .proj {
   text-align: center;
-  font-family: thug;
+  font-family: 'Sedgwick Ave Display', cursive;
   font-size: 3em;
 }
 .nfl {
@@ -199,7 +200,7 @@ nav a:hover {
 }
 .sklz {
   text-align: center;
-  font-family: font120087;
+  font-family: 'Sedgwick Ave Display', cursive;
   font-size: 3em;
   margin-top: 10vh;
 }
