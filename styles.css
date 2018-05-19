@@ -156,6 +156,18 @@ nav a:hover {
   height: 15vh;
 
 }
+.dance {
+  margin-left: auto;
+  margin-right: auto;
+  height: 30vh;
+  width: 45vw;
+}
+.dancep {
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vw;
+  text-align: center;
+}
 .alpha {
   margin-left: auto;
   margin-right: auto;
